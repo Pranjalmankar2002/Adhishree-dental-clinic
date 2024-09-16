@@ -1,0 +1,387 @@
+*{
+    margin:0 ;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.row, .d-flex{
+    display: flex;
+}
+.d-block{
+    display: block;
+}
+.d-inline{
+    display: inline-block;
+}
+.col-md-12{
+    width: 100%;
+}
+.rel{
+    position: relative;
+}
+.abs{
+    position: absolute;
+}
+.col-md-8{
+    width: 66%;
+}
+.col-md-6{
+    width: 50%;
+}
+.col-md-5{
+    width: 20%;
+}
+.col-md-4{
+    width: 33.33%;
+}
+.col-md-3{
+    width:25%;
+}
+.align-items{
+    align-items: center;
+}
+.text-align{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+    
+}
+.justify{
+    justify-content: space-between;
+}
+.p-20{
+    padding: 20px;
+}
+.m-bottom{
+    margin: 30px;
+}
+.m-20{
+    margin: 20px;
+}
+.f-size{
+    font-size:40px;
+}
+.f-size2{
+    font-size: 30px;
+}
+.gap{
+    gap: 15px;
+}
+.w-100{
+    width: 100%;
+}
+.f-weight{
+    font-weight: 400;
+}
+.w-clr{
+    color: white;
+}
+.b-clr{
+    color: black;
+}
+.blu-clr{
+    color: #181E44;
+}
+.bg-blue{
+    background-color: #1A3871;
+    color: white;
+}
+.drop-down-toggle:hover .drop-down-menu{
+    background-color: #EB4343;
+    display: block;
+}
+.drop-down-menu{
+    display: none;
+    position: absolute;
+    width: 300px;
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+}
+.cta-two {
+    padding: 55px 0;
+    background-color: #09A0BA;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+}
+.red-clr{
+    color: red;
+}
+.grey-clr{
+    color: #797979;
+}
+.ft-clr{
+    background-color: #161F2D;
+    color: white;
+}
+.red-btn{
+    background-color: #EB4343;
+    color: white;
+    border: none;
+}
+nav ul li a:hover{
+    color: red;
+    gap: 20px;
+}
+nav ul li a:active{
+    color: red;
+}
+.content-box{
+    box-sizing: content-box;
+
+}
+a:hover{
+    color: #EB4343;
+}
+
+button:hover{
+    color: white;
+    background-color:navy ;
+}
+.header-one__cta-icon i {
+    font-size: 23px;
+    color: #EB4343;
+}
+.bg-trans{
+    background-color: transparent;
+}
+.bg-img{
+    background-image: url(http://adhishreedentalclinic.com/images/slider/slider-1-6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 155.5px 0;
+}
+.bg-img2{
+    background-image: url(http://adhishreedentalclinic.com/images/background/cta-bg-1-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 155.5px 0;
+    color: white;
+}
+/* .bg-img3{
+    background-image: url(http://adhishreedentalclinic.com/images/resources/about-dots.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 155.5px 0;
+} */
+section{
+    color: white;
+
+}
+.font {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.card {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #e4edf4;
+    margin-bottom: 30px;
+    min-height: 220px;
+    text-align: center;
+}
+ul li{
+    margin: 20px 0;
+}
+
+.border-btm{
+    border-bottom: black solid 1px;
+}
+.about-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 25px;
+}
+.list-item {
+    font-size: 16px;
+    color: #797979;
+}
+.circle{
+    border-radius: 100%;
+}
+.border{
+    border-radius: 100%;
+    border-color:#797979 ;
+}
+.about-img {
+    /* position: absolute;
+    top: 0;
+    right: 15px;
+    width: 100%;
+    max-width: 500px;
+    background: transparent url(../images/resources/about-dots.png) 100% -120% no-repeat;
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8); */
+}
+.appointment-one {
+    background-color: #eff3f9;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #797979;
+}
+.google-map__home {
+    width: 100%;
+    border: none;
+    height: 448px;
+    display: block;
+}
+.share-on-socail-media>li>a {
+    display: block;
+    text-decoration: none;
+    margin: 10px 0px;
+    padding: 10px 20px;
+}
+.tw {
+    background-color: #00acee;
+    color: white;
+    display: block;
+    margin: 10px 0px;
+    padding: 10px 20px;
+   
+}
+.fb {
+    background-color: #3b5998;
+    color: white;
+    display: block;
+    margin: 10px 0px;
+    padding: 10px 20px;
+}
+.pin {
+    background-color: #E60023;
+    color: white;
+    display: block;
+    margin: 10px 0px;
+    padding: 10px 20px;
+}
+.linkd {
+    background-color: #0e76a8;
+    color: white;
+    display: block;
+    margin: 10px 0px;
+    padding: 10px 20px;
+}
+.tumb {
+    background-color: #34526f;
+    color: white;
+    display: block;
+    margin: 10px 0px;
+    padding: 10px 20px;
+}
+.email {
+    background-color: #171412;
+    color: white;
+    display: block;
+    margin: 10px 0px;
+    padding: 10px 20px;
+}
+.footer-widget__title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 37px;
+}
+.footer-col .footer-widget {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 25%;
+    flex: 1 0 25%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.footer-widget__links-list-item + .footer-widget__links-list-item {
+    margin-top: 4px;
+}
+.inner-banner {
+    background: #BAC5D8 url(../images/background/inner-banner-1-1.png) center left no-repeat;
+    background-size: cover;
+    padding: 63.5px 0;
+    background-image: url(http://adhishreedentalclinic.com/images/background/inner-banner-1-1.png);
+}
+.service-two__single {
+    border-radius: 5px;
+    background-color: #e9f1f6;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0 15px;
+    padding-top: 35px;
+    padding-bottom: 40px;
+} 
+.service-two__image {
+    position: relative;
+    overflow: hidden;
+}
+.out-line{
+    border-bottom: 1px solid #EB4343;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow:clip;
+}
+.gallery-one__single {
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.gallery-one__page {
+    background-color: #fff;
+}
+.gallery-one {
+    padding-top: 100px;
+    padding-bottom: 70px;
+    background-color: #192139;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+.gallery-one__single:hover .gallery-one__content {
+    opacity: 1;
+    background-color: ;
+}
+.gallery-one__page .gallery-one__content {
+    background-color:#fff(0, 0, 0, 0.4);
+}
+
+.circle-imgs{
+    position: relative;
+    top: 56px;
+    left: 63px;
+}
+.about-img{
+    position: relative;
+}
+
+.cricle-img-1, .cricle-img-2, .dotted-bg{
+    position: absolute;
+}
+.dotted-bg{
+    right: 50px;
+    top: 117px;
+}
+
+.cricle-img-1{
+    left: 0;
+}
+.cricle-img-2{
+    left: 100px;
+    top: 93px
+}
+.cricle-img-2 img{
+    border: 5px solid white;
+}
+.circle-imgs img{
+    width: 80%;
+}
